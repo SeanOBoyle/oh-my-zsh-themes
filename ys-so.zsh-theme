@@ -68,7 +68,6 @@ PROMPT="
 %{$terminfo[bold]$fg[yellow]%}${current_dir}%{$reset_color%}\
 ${hg_info}\
 ${git_info} \
-#${svn_info} \
 ${time_info}
 ${virtualenv_info}\
 %{$terminfo[bold]$fg[red]%}$ %{$reset_color%}"
